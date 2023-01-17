@@ -18,5 +18,32 @@ public class Main {
         String score = (average >=50) ? "You Passed" : "You Failed";
         System.out.println(score);
 
+        if (average <=29){
+            System.out.println("Your Letter Grade DD");
+        }
+        else if (average <=39){
+            System.out.println("Your Letter Grade FD");
+        }
+        else if (average <=49){
+            System.out.println("Your Letter Grade DD");
+        }
+        else if (average <=59){
+            System.out.println("Your Letter Grade DC");
+        }
+        else if (average <=69){
+            System.out.println("Your Letter Grade CC");
+        }
+        else if (average <=74){
+            System.out.println("Your Letter Grade CB");
+        }
+        else if (average <=79){
+            System.out.println("Your Letter Grade BB");
+        }
+        else if (average <=89){
+            System.out.println("Your Letter Grade BA");
+        }
+        else if (average >=90){
+            System.out.println("Your Letter Grade AA");
+        }
     }
 }
